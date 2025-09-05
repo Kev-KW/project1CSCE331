@@ -1,3 +1,33 @@
 body {
     background: linear-gradient(135deg, #a259ff 0%, #6a82fb 100%);
 }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.portfolio-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    flex: 1;
+    min-width: 300px;
+}
+.project-title {
+    font-weight: bold;
+}
+.project-desc {
+    margin-bottom: 20px;
+}
+.home-btn {
+    margin-top: 40px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
